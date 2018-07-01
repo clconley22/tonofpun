@@ -1,6 +1,5 @@
 body {
   font-family: 'Didact Gothic', sans-serif;
-
 }
 
 .navbar-header h1 {
@@ -80,6 +79,17 @@ body {
 
 .btn a:hover {
   color: #222;
+}
+
+#img {
+  max-width: 300px;
+  margin: 1% auto;
+  border-radius: 18px;
+  border: 1px solid black;
+}
+
+.container {
+  margin: 4% auto;
 }
 
 footer {
