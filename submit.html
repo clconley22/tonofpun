@@ -21,32 +21,54 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <h1>Ton of Pun</h1>
+        <h1><a href="./index.html">Ton of Pun</a></h1>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="./index.html">Home</a></li>
-          <li><a href="./popular.html">Popular Puns</a></li>
+          <li><a href="./animal-puns.html">Animal Puns</a></li>
+          <li><a href="./food-puns.html">Food Puns</a></li>
+          <li><a href="./movie-puns.html">Movie Puns</a></li>
           <li class="active"><a href="./submit.html">Submit a Pun</a></li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="container text-center">
+    <h2>Submit Your Pun Here!</h2>
+  </div>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputName1">Name</label>
+      <input type="name" class="form-control" id="nameinput" aria-describedby="nameHelp" placeholder="Enter Full Name">
+      <small id="nameHelp" class="form-text text-muted"></small>
+    </div>
+  <div class="form-group">
+    <label for="InputEmail1">Email address</label>
+    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+  <div class="form-group">
+    <label for="InputPun1">Pun</label>
+    <input type="pun" class="form-control" id="InputPun1" placeholder="Your Pun">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 
-  <div id="myCorousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCorousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCorousel" data-slide-to="1" class="active"></li>
-      <li data-target="#myCorousel" data-slide-to="2" class="active"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="img" alt="">
-
-      </div>
+<footer class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-6">
+      <h4>How punny are you?</h4>
+      <h3><a href="./submit.html"> Submit your best pun here</a></h3>
+    </div>
+    <div class="col-sm-6">
+      <h3>Connect</h3>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-youtube"></a>
     </div>
   </div>
-
-  <!--end of slider-->
+</footer>
 </body>
 </html>
