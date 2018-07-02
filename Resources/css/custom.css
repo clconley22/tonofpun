@@ -91,14 +91,18 @@ body {
 }
 
 #img {
-  max-width: 300px;
+  max-width: 350px;
   margin: 1% auto;
   border-radius: 18px;
-  border: 1px solid black;
+  border: 2px solid black;
+}
+
+.container h2 {
+  padding: 4%;
 }
 
 .container {
-  margin: 4% auto;
+  margin: 0 auto;
 }
 
 form {
