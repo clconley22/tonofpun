@@ -105,6 +105,10 @@ body {
   margin: 0 auto;
 }
 
+.confirmation {
+  margin: 25% 10%;
+}
+
 form {
   padding: 5%;
 }
